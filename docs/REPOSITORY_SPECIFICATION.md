@@ -1,6 +1,6 @@
 # Repository specification: aether-ai-docs
 
-**Status:** Documentation baseline copied from the Aether AI master specification. Implementation status must be verified separately.
+**Status:** Repository exists; documentation-only on the inspected `main` branch. No application implementation is present in the audited tree.
 
 ## Mission
 
@@ -8,7 +8,7 @@ Published user guides, API manuals, operator runbooks, tutorials, architecture, 
 
 ## Dependencies and connections
 
-All repositories; source-of-truth docs stay next to the owning component.
+Documentation-only links to all Aether repositories; no runtime dependency.
 
 ## Owned capabilities
 
