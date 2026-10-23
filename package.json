@@ -1,0 +1,12 @@
+{
+  "name": "@aether-ai/docs",
+  "version": "0.1.0",
+  "description": "Local Markdown link validation utilities for Aether AI documentation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check:links": "node scripts/check-markdown-links.mjs ."
+  },
+  "engines": { "node": ">=20" }
+}
