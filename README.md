@@ -2,7 +2,7 @@
 
 Published user guides, API manuals, operator runbooks, tutorials, architecture, and release notes.
 
-**Status:** Documentation foundation only. This repository does not yet claim working implementation, deployment, or production readiness.
+**Status:** Markdown link checker implementation is in review. A docs publishing site and release pipeline are not implemented.
 
 ## Documentation
 
@@ -15,6 +15,10 @@ Published user guides, API manuals, operator runbooks, tutorials, architecture, 
 - [Research and licenses](docs/RESEARCH_AND_LICENSES.md)
 - [Engineering standard](docs/ENGINEERING_STANDARD.md)
 - [Work log](docs/WORKLOG.md)
+
+## Initial implementation
+
+A dependency-free Node.js checker scans local Markdown links and heading anchors, ignores external HTTP(S)/mailto/tel links, rejects links escaping the documentation root, and runs in CI. It is a lightweight validator, not a full CommonMark parser or external-link availability checker.
 
 ## Project-wide references
 
